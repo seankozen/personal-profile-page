@@ -290,8 +290,35 @@ a.social:hover {
 
 .astronomy-page {
   text-align: left;
-  max-width: 1200px;
   margin-left: 35px;
+} 
+
+.tele-head {
+  align-self: left;
+}
+
+.tele-container {
+  display: grid;
+  grid-template-columns: 400px repeat(auto-fit, minmax(400px, 1fr));
+  justify-content: center;
+}
+
+.telescope-pic {
+  width: 378px;
+  height: 504px;
+  padding-left: 0px;
+  margin-left: 5px;
+  margin-right: 10px;
+  box-shadow: 5px 5px 3px gray;
+}
+
+.tele-text {
+  width: 50%;
+  margin-left: 2em;
+}
+
+.tele-text p:nth-of-type(1) {
+  margin-top: 0;
 }
 
 .pictures {
@@ -312,15 +339,6 @@ a.social:hover {
 
 .astronomy-pic-title {
   margin: 10px 20px;
-}
-
-.telescope-pic {
-  float: left;
-  width: 378px;
-  height: 504px;
-  padding-left: 0px;
-  margin-left: 5px;
-  margin-right: 10px;
 }
 
 .caption {
