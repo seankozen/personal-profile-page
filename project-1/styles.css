@@ -300,7 +300,9 @@ a.social:hover {
 .tele-container {
   display: grid;
   grid-template-columns: 400px repeat(auto-fit, minmax(400px, 1fr));
+  grid-template-rows: repeat(minmax(510px, 1fr));
   justify-content: center;
+  
 }
 
 .telescope-pic {
